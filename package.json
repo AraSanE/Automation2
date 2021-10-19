@@ -1,0 +1,21 @@
+{
+  "name": "automation-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome,safari ./POM/tests",
+    "test-login": "testcafe chrome:headless ./POM/tests/Login.test.js --concurrency 2 --reporter html:tests/results/results.html",
+    "smoke-testing": "testcafe chrome ./POM/tests --test-meta type=smoke",
+    "new_task": "testcafe chrome ./POM/tests/NewTask.test.js"
+  },
+  "keywords": [],
+  "author": "ase",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nanoid": "^3.1.30",
+    "testcafe": "^1.16.1",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
