@@ -1,0 +1,17 @@
+{
+    "skipJsError": true,
+    "assertionTimeout": 10000,
+    "speed": 1.0,
+    "noColor": true,
+    "screenshots": {
+        "takeOnFails": true,
+        "path": "./tests/screenshots/"
+            
+        }
+    }
+
+
+
+
+
+

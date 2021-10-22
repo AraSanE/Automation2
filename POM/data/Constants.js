@@ -12,3 +12,16 @@ export const CREDENTIALS = {
         PASSWORD: process.env.EMAIL_USER_PASSWORD
     }
 }
+    export const WRONGCREDENTIALS = {
+        WRONG_USER: {
+            EMAIL: process.env.WRONG_USER_EMAIL,
+            PASSWORD: process.env.WRONG_USER_PASSWORD
+        }
+    }
+
+    export const EMPTYCRED = {
+        EMPTY_USER: {
+            EMAIL: process.env.EMPTY_USER_EMAIL,
+            PASSWORD: process.env.EMPTY_USER_PWD
+        }
+    } 

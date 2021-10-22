@@ -23,11 +23,18 @@ test.meta('type','smoke')('Select option to login', async t => {
 
 test('Select option to login', async t => {
     await t.useRole(EMAIL_USER)
-    //await t.expect(todayPage.filter.exists).ok()
-    
+    await t.expect(todayPage.filter.exists).ok()
+})
+
+test('Select option to login', async t => {
+    await t.useRole(EMAIL_USER)
 
 })
 
+
+    .afterEach(async t => {
+        await t.wait(5000)
+    })
 
 
 

@@ -12,10 +12,10 @@ class LoginPage {
         await t 
             //.click(this.googleButton)
             .typeText(this.emailInput, email)
-            .click(this.siguienteButton)
+            //.click(this.siguienteButton)
             .typeText(this.passwordInput, password)
             .click(this.siguienteButton)  
-            //.wait(5000)  
+            
     }
 }
 
