@@ -1,3 +1,6 @@
+![Image of Wizeline.png]
+(https://thinkandstart.com/assets/Wizeline.png)
+
 **PURPOSE**
 
 The purpose of this chanllenge is to apply all the techniques and best practices covered during the front-end sessions to a real framework.
@@ -14,7 +17,7 @@ _Tech Stack_
 
 ---
 
-|** AUTOMATION2
+|\_\_ AUTOMATION2
 |\_\_** POM
 | |** data
 | |**Constants.js
@@ -35,7 +38,7 @@ _Tech Stack_
 |\_**\_ .gitignore
 |\_\_** {}.testcaferc.json
 |\_**\_ {} package.json
-|\_\_** (i)README.md
+|\_\_\*\* (i)README.md
 
 **Pre-requisites**
 
@@ -46,3 +49,7 @@ _Tech Stack_
 - Visual Studio Code _(latest version)_
 - Testcafe
 - Suggested Extensions _(Prettier, Live Server, ESLint)_
+
+**Project Setup**
+
+---
