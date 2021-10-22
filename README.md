@@ -1,6 +1,3 @@
-![Image of Wizeline.png]
-(https://thinkandstart.com/assets/Wizeline.png)
-
 **PURPOSE**
 
 The purpose of this chanllenge is to apply all the techniques and best practices covered during the front-end sessions to a real framework.
