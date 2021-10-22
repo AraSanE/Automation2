@@ -1,5 +1,4 @@
-https://thinkandstart.com/assets/Wizeline.png![image](https://user-images.githubusercontent.com/91338126/138530430-30fa9151-0daf-4aed-b94b-751063f9e0ef.png)
-
+![image](https://user-images.githubusercontent.com/91338126/138530430-30fa9151-0daf-4aed-b94b-751063f9e0ef.png)
 
 **PURPOSE**
 
