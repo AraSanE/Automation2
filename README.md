@@ -1,5 +1,4 @@
-![Image of Wizeline]
-(https://thinkandstart.com/assets/Wizeline.png)
+https://thinkandstart.com/assets/Wizeline.png
 
 **PURPOSE**
 
