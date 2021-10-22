@@ -2,7 +2,9 @@
 
 ---
 
-###**PURPOSE**
+## ###**PURPOSE**
+
+---
 
 The purpose of this chanllenge is to apply all the techniques and best practices covered during the front-end sessions to a real framework.
 
@@ -18,13 +20,14 @@ _Tech Stack_
 
 ---
 
-|**AUTOMATION2
-|\_\_** POM
+| \*\*AUTOMATION2
 
-> > > > > > > | |** data
-> > > > > > > | |**Constants.js
-> > > > > > > | |**Roles.js
-> > > > > > > | |** pages
+> > | POM
+
+> > > > > > > |** data
+> > > > > > > | >>|Constants.js
+> > > > > > > | >>|Roles.js
+> > > > > > > |** | pages
 > > > > > > > | |**CommonPage.js
 > > > > > > > | |**LoginPage.js
 > > > > > > > | |**TodayPage.js
@@ -55,3 +58,32 @@ _Tech Stack_
 **Project Setup**
 
 ---
+
+1. Clone this repository
+2. Go to the repository folder
+3. Open a terminal
+4. Run npm install
+5. Run npm init -y
+6. Run rpm i testcafe
+7.
+
+**Dependencies**
+
+---
+
+- testcafe
+- dotenv
+- eslint
+
+**_SCRIPTS_**
+
+---
+
+1. test: Runs in chrome & safari instances.
+2. test-login: Runs in chrome instance in headless mode with concurrency 2 and generates a report in a html file which is generated in following path:tests/results/results.html
+3. smoke-testing: Runs in chrome instance and speciall for smoke tests
+4. task: Runs in chrome instance in order to create New tasks and validate their creation.
+5. negative: Runs all the negative scenarios in chrome intance.
+6. lint-init: iniciates 'eslint'.
+7. lint: eslint ./pom
+8. project: "testcafe chrome ./POM/tests/Project.test.js "
