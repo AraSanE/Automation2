@@ -1,3 +1,6 @@
+![Image of Wizeline]
+(https://thinkandstart.com/assets/Wizeline.png)
+
 **PURPOSE**
 
 The purpose of this chanllenge is to apply all the techniques and best practices covered during the front-end sessions to a real framework.
@@ -14,28 +17,34 @@ _Tech Stack_
 
 ---
 
+<<<<<<< HEAD
 |\_\_ AUTOMATION2
+|\_\_\*\* POM
+=======
+|**AUTOMATION2
 |\_\_** POM
-| |** data
-| |**Constants.js
-| |**Roles.js
-| |** pages
-| |**CommonPage.js
-| |**LoginPage.js
-| |**TodayPage.js
-| |**tests
-| |**Login.test.js
-| |**Negative.test.js
-| |**NewTask.test.js
-| |**Project.test.js
-|\_**\_ tests
-| |** results
-| |** screenshots  
-|\_\_** .env
-|\_**\_ .gitignore
-|\_\_** {}.testcaferc.json
-|\_**\_ {} package.json
-|\_\_\*\* (i)README.md
+
+> > > > > > > 5c4d002842fdd692ba6df888e70022f34f85523d
+> > > > > > > | |** data
+> > > > > > > | |**Constants.js
+> > > > > > > | |**Roles.js
+> > > > > > > | |** pages
+> > > > > > > | |**CommonPage.js
+> > > > > > > | |**LoginPage.js
+> > > > > > > | |**TodayPage.js
+> > > > > > > | |**tests
+> > > > > > > | |**Login.test.js
+> > > > > > > | |**Negative.test.js
+> > > > > > > | |**NewTask.test.js
+> > > > > > > | |**Project.test.js
+> > > > > > > |\_**\_ tests
+> > > > > > > | |** results
+> > > > > > > | |** screenshots  
+> > > > > > > |\_\_** .env
+> > > > > > > |\_**\_ .gitignore
+> > > > > > > |\_\_** {}.testcaferc.json
+> > > > > > > |\_\*\*\_ {} package.json
+> > > > > > > |\_\_\*\* (i)README.md
 
 **Pre-requisites**
 
