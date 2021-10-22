@@ -58,3 +58,10 @@ _Tech Stack_
 **Project Setup**
 
 ---
+1. Clone this repository
+2. Go to the repository folder
+3. Open a terminal
+4. Run npm install
+5. Run npm init -y
+6. Run rpm i testcafe
+7. 
