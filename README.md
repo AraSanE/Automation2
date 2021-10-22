@@ -14,8 +14,8 @@ _Tech Stack_
 
 ---
 
-|** AUTOMATION2
-|\_\_** POM
+ |__AUTOMATION2
+ |____ POM
 | |** data
 | |**Constants.js
 | |**Roles.js
