@@ -10,7 +10,7 @@
     "task": "testcafe chrome ./POM/tests/NewTask.test.js",
     "negative": "testcafe chrome ./POM/tests/Negative.test.js",
     "lint-init": "eslint --init",
-    "lint": "eslint ./pom", //a la hora de correrlo me dio error (npx eslint --init) seleccione opciones igual q luis y al finalizar para iniciar arroja un error
+    "lint": "eslint ./pom", 
     "project": "testcafe chrome ./POM/tests/Project.test.js "
     
   },
