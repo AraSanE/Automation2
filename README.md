@@ -46,13 +46,15 @@ AUTOMATION2
 >
 > > results
 > > screenshots
-> >
-> > .env
+>
+> .env
 >
 > .gitignore
 >
 > {}.testcaferc.json
+>
 > {} package.json
+>
 > (i)README.md
 
 #**Pre-requisites**
