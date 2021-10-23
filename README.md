@@ -28,23 +28,32 @@ AUTOMATION2
 > > >
 > > > > Constants.js
 > > > > Roles.js
+> > > >
 > > > > pages
+> > >
 > > > > CommonPage.js
 > > > > LoginPage.js
 > > > > TodayPage.js
+> > > >
 > > > > tests
+> > > >
 > > > > Login.test.js
 > > > > Negative.test.js
 > > > > NewTask.test.js
 > > > > Project.test.js
-> > > > tests
-> > > > results
-> > > > screenshots  
-> > > >  .env
-> > > > .gitignore
-> > > > {}.testcaferc.json
-> > > > {} package.json
-> > > > (i)README.md
+>
+> tests
+>
+> > results
+> > screenshots
+> >
+> > .env
+>
+> .gitignore
+>
+> {}.testcaferc.json
+> {} package.json
+> (i)README.md
 
 #**Pre-requisites**
 
