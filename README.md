@@ -2,7 +2,7 @@
 
 ---
 
-## ###**PURPOSE**
+## **PURPOSE**
 
 ---
 
@@ -16,34 +16,35 @@ _Tech Stack_
 - Testcafe
 - Jenkins
 
-##**Project Structure**
+**Project Structure**
 
 ---
 
-| \*\*AUTOMATION2
+AUTOMATION2
 
-> > | POM
-
-> > > > > > > |** data
-> > > > > > > | >>|Constants.js
-> > > > > > > | >>|Roles.js
-> > > > > > > |** | pages
-> > > > > > > | |**CommonPage.js
-> > > > > > > | |**LoginPage.js
-> > > > > > > | |**TodayPage.js
-> > > > > > > | |**tests
-> > > > > > > | |**Login.test.js
-> > > > > > > | |**Negative.test.js
-> > > > > > > | |**NewTask.test.js
-> > > > > > > | |**Project.test.js
-> > > > > > > |\_**\_ tests
-> > > > > > > | |** results
-> > > > > > > | |** screenshots  
-> > > > > > > |\_\_** .env
-> > > > > > > |\_**\_ .gitignore
-> > > > > > > |\_\_** {}.testcaferc.json
-> > > > > > > |\_\*\*\_ {} package.json
-> > > > > > > |\_\_\*\* (i)README.md
+> POM
+>
+> > > data
+> > >
+> > > > Constants.js
+> > > > Roles.js
+> > > > pages
+> > > > CommonPage.js
+> > > > LoginPage.js
+> > > > TodayPage.js
+> > > > tests
+> > > > Login.test.js
+> > > > Negative.test.js
+> > > > NewTask.test.js
+> > > > Project.test.js
+> > > > tests
+> > > > results
+> > > > screenshots  
+> > > >  .env
+> > > > .gitignore
+> > > > {}.testcaferc.json
+> > > > {} package.json
+> > > > (i)README.md
 
 #**Pre-requisites**
 
@@ -65,7 +66,15 @@ _Tech Stack_
 4. Run npm install
 5. Run npm init -y
 6. Run rpm i testcafe
-7.
+7. Create .env file with following variables:
+   EMAIL_USER_EMAIL=aratest.0001@gmail.com
+   EMAIL_USER_PASSWORD=Mi23L1nE
+
+   WRONG_USER_EMAIL=aratest.0001@gmail
+   WRONG_USER_PASSWORD=Mi23L1n
+
+   EMPTY_USER_EMAIL=
+   EMPTY_USER_PWD=
 
 **Dependencies**
 
@@ -75,7 +84,7 @@ _Tech Stack_
 - dotenv
 - eslint
 
-**_SCRIPTS_**
+##**_SCRIPTS_**
 
 ---
 
