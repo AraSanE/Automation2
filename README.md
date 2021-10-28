@@ -27,24 +27,31 @@ AUTOMATION2
 > > > data
 > > >
 > > > > Constants.js
-> > > > Roles.js
 > > > >
-> > > > pages
+> > > > Roles.js
+> > >
+> > > pages
 > > >
 > > > > CommonPage.js
+> > > >
 > > > > LoginPage.js
+> > > >
 > > > > TodayPage.js
-> > > >
-> > > > tests
-> > > >
+> > >
+> > > tests
+> > >
 > > > > Login.test.js
+> > > >
 > > > > Negative.test.js
+> > > >
 > > > > NewTask.test.js
+> > > >
 > > > > Project.test.js
 >
 > tests
 >
 > > results
+> >
 > > screenshots
 >
 > .env
@@ -74,7 +81,7 @@ AUTOMATION2
 1. Clone this repository
 2. Go to the repository folder
 3. Open a terminal
-4. Run npm install
+4. Run npm install testcafe
 5. Run npm init -y
 6. Run rpm i testcafe
 7. Create .env file with following variables:

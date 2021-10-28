@@ -1,11 +1,9 @@
-import {Selector, t} from 'testcafe'
 import loginPage from '../pages/LoginPage'
 import { CREDENTIALS, URLS} from '../data/Constants'
 import todayPage from '..//pages/TodayPage'
 import {EMAIL_USER} from '../data/Roles'
 
 fixture('Login feature test')
-    //.page `https://todoist.com`
    .page `${URLS.LOGIN_URL}`
    .beforeEach(async t => {
        await t. setTestSpeed(.3)
@@ -13,8 +11,8 @@ fixture('Login feature test')
 
 test.skip('As a user, I should be able to select an option to login', async t => {
     await loginPage.submitLoginForm(CREDENTIALS.EMAIL_USER.EMAIL, CREDENTIALS.EMAIL_USER.PASSWORD)
-    //await t.expect(todayPage.filter.exists).ok()
-    //.expect(Selector('#filter_today').innerText).contains('Today')
+    
+    
 })
 
 test.meta('type','smoke')('Select option to login', async t => {
@@ -44,6 +42,14 @@ test('Select option to login', async t => {
 
 
 
+
+
+
+
+
+
+
+
 //.click('/html/body/div/div/main/div[1]/header/nav/div/ul[2]/li[1]/a')
 /*.click(loginPage.googleButton)
 .typeText(loginPage.emailInput, CREDENTIALS.EMAIL_USER.EMAIL)
@@ -53,7 +59,8 @@ test('Select option to login', async t => {
 .wait(5000)
 
 
-
+//await t.expect(todayPage.filter.exists).ok()
+//.expect(Selector('#filter_today').innerText).contains('Today')
 
 
 

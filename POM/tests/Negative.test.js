@@ -1,8 +1,6 @@
-import {ClientFunction, Selector, t} from 'testcafe'
-import loginPage from '../pages/LoginPage'
+import { Selector, t} from 'testcafe'
+
 import { WRONGCREDENTIALS, CREDENTIALS, URLS} from '../data/Constants'
-import todayPage from '..//pages/TodayPage'
-import {EMAIL_USER} from '../data/Roles'
 
 fixture('Login feature test')
    .page `${URLS.LOGIN_URL}`

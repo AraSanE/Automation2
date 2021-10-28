@@ -1,6 +1,5 @@
 import {Selector, t} from 'testcafe'
-import { CREDENTIALS, URLS} from '../data/Constants'
-import todayPage from '../pages/TodayPage'
+import { URLS} from '../data/Constants'
 import {EMAIL_USER} from '../data/Roles'
 
 fixture('New task test')
