@@ -20,17 +20,17 @@ _Tech Stack_
 
 ---
 
-AUTOMATION2
+**_AUTOMATION2_**
 
-> POM
+> **POM**
 >
-> > > data
+> > > **_data_**
 > > >
 > > > > Constants.js
 > > > >
 > > > > Roles.js
 > > >
-> > > pages
+> > > **_pages_**
 > > >
 > > > > CommonPage.js
 > > > >
@@ -38,7 +38,7 @@ AUTOMATION2
 > > > >
 > > > > TodayPage.js
 > > >
-> > > tests
+> > > **_tests_**
 > > >
 > > > > Login.test.js
 > > > >
@@ -48,23 +48,23 @@ AUTOMATION2
 > > > >
 > > > > Project.test.js
 >
-> tests
+> **tests**
 >
 > > results
 > >
 > > screenshots
 >
-> .env
+> **.env**
 >
-> .gitignore
+> **.gitignore**
 >
-> {}.testcaferc.json
+> **{}.testcaferc.json**
 >
-> {} package.json
+> **{} package.json**
 >
-> (i)README.md
+> **(i)README.md**
 
-#**Pre-requisites**
+**Pre-requisites**
 
 ---
 

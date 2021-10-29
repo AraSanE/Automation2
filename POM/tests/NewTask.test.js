@@ -52,7 +52,7 @@ fixture('New task test')
     })
 
     test.only('Create 10 tasks for today and verify they are been created', async t => {
-        await t.setTestSpeed(.3)
+        await t.setTestSpeed(.5)
         await t.useRole(EMAIL_USER),
         
         await t

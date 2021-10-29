@@ -7,8 +7,8 @@
     "test": "testcafe chrome,safari ./POM/tests",
     "test-login": "testcafe chrome:headless ./POM/tests/Login.test.js --concurrency 2 --reporter html:tests/results/results.html",
     "smoke-testing": "testcafe chrome ./POM/tests --test-meta type=smoke",
-    "task": "testcafe chrome:headless ./POM/tests/NewTask.test.js --r xunit:res.xml",
-    "negative": "testcafe chrome ./POM/tests/Negative.test.js",
+    "task": "testcafe chrome:headless ./POM/tests/NewTask.test.js --reporter html:tests/results/results.html",
+    "negative": "testcafe chrome:headless   ;  ./POM/tests/Negative.test.js",
     "lint-init": "eslint --init",
     "lint": "eslint ./pom", 
     "project": "testcafe chrome ./POM/tests/Project.test.js "
