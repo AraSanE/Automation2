@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-dotenv.config() //se inicializa dotenv con este comando
+dotenv.config()
 
 export const URLS = {
     LOGIN_URL : 'https://todoist.com/users/showlogin',

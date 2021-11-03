@@ -34,7 +34,7 @@ fixture('New task test')
             .click('.task_list_item__content')
             .click('.more_actions_button')
             .click('.icon_menu_item danger_menu')
-            //lo intente pero fracase.... no logro hacer q la borre... :(
+            
     })
     test.skip('Create task for tomorrow', async t => {
         await t.useRole(EMAIL_USER),

@@ -1,5 +1,4 @@
 import { Selector, t} from 'testcafe'
-
 import { WRONGCREDENTIALS, CREDENTIALS, URLS} from '../data/Constants'
 
 fixture('Login feature test')
