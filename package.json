@@ -10,7 +10,7 @@
     "task": "testcafe chrome:headless ./POM/tests/NewTask.test.js --reporter html:tests/results/results.html",
     "negative": "testcafe chrome:headless ./POM/tests/Negative.test.js",
     "lint-init": "eslint --init",
-    "lint": "eslint ./pom",
+    "lint": "eslint ./POM",
     "project": "testcafe chrome ./POM/tests/Project.test.js ",
     "api-testing": "newman run '.api_testing/CapstonProject.collection.json' -./api_testing/Env.postman_environment.json "
   },
@@ -20,6 +20,7 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "eslint-plugin": "^1.0.1",
+    "eslint-plugin-testcafe": "^0.2.1",
     "nanoid": "^3.1.30",
     "testcafe": "^1.16.1",
     "testcafe-reporter-html": "^1.4.6"
