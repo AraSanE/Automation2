@@ -12,7 +12,7 @@
     "lint-init": "eslint --init",
     "lint": "eslint ./POM",
     "project": "testcafe chrome ./POM/tests/Project.test.js ",
-    "api-testing": "newman run './api_testing/CapstonProject.collection.json' -./api_testing/Env.postman_environment.json "
+    "api-testing": "newman run './api_testing/CapstonProject.collection.json' -e ./api_testing/Env.postman_environment.json "
   },
   "keywords": [],
   "author": "ase",
